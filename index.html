@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ko">
+	   <head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge" /> 
+		<title>EZ2ON REBOOT:R FAN SITE</title>
+		<link rel="stylesheet" href="css/style.css" />
+           
+        <!--웹폰트 에스코어드림-->
+        <style>@font-face { font-family: 'S-CoreDream-3Light'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff'); font-weight: normal; font-style: normal; }</style>
+           
+        <style>@font-face { font-family: 'S-CoreDream-8Heavy'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff') format('woff'); font-weight: normal; font-style: normal; }</style>
+          
+     <script> document.getElementById('vid').play(); </script>
+
+<!-- sound -->
+
+     <script type="text/javascript"> 
+(function(){    
+    if(!/complete|interactive/.test(document.readyState)) 
+        return setTimeout(arguments.callee); 
+     
+    var $audio; 
+    var divs = document.getElementsByTagName('div'); 
+    for(var i=divs.length, div; i--;){ 
+          div = divs[i]; 
+          if(div.getAttribute('sound')) 
+              div.onclick = audio; 
+   } 
+    
+   return; 
+    
+   function audio(){ 
+         if(!$audio){ 
+               $audio = document.createElement('audio'); 
+               $audio.type = 'audio/mpeg'; 
+               $audio.autoplay = true; 
+               (document.body || document.documentElement).appendChild($audio); 
+        } 
+        $audio.src = this.getAttribute('sound'); 
+  } 
+})() 
+</script> 
+<!-- sound end -->
+           
+           
+           
+        </head>
+	<body>	
+    
+    <div class="wrap">
+    
+            
+            <div class="letterbox">
+                <div class="vidio2">
+                <video muted autoplay loop>
+            <source class="videoBg" src="vidio/bg2.mp4" type="video/mp4"></video>
+                </div>
+                <div class="songbox">
+                </div>
+                <div class="img">
+                </div>
+                <div class="lv1">1</div>
+                <div class="lv2">2</div>
+                <div class="lv3">3</div>
+                <div class="lv4">4</div>
+                <div class="songsidebox">
+                <img class="songimg" src="img/songbox.png" class="songsidebox"/>
+                <img class="like1" src="img/like1.png" class="songsidebox"/>
+                <div class="play1" class="songsidebox"/></div>
+                <img class="eqiup1" src="img/eqiup1.png" class="songsidebox"/>
+                </div>
+                
+                <div class="tap"><p>TITLE</p></div>
+                <div class="tap2"><p>마우스로 아래 곡을 누르면 프리뷰 음원이 재생됩니다.</p></div>
+                <div class="songlistbox"></div>
+                <div class="songname">  
+                    <div class="beatrice"sound="bea.mp3">   
+                    </div>
+                    <div class="deraru"sound="deraru.mp3">   
+                    </div>
+                    <div class="wof"sound="wof.mp3">   
+                    </div>
+                    <div class="str"sound="str.mp3">   
+                    </div>
+                    <div class="bedl"sound="bedl.mp3">   
+                    </div>
+                    <div class="bliz"sound="blitz.mp3">   
+                    </div>
+                    <div class="ori"sound="ori.mp3">   
+                    </div>
+                    <div class="gehen"sound="gehen.mp3">   
+                    </div>
+                    <div class="bird"sound="bird.mp3">   
+                    </div>
+                    <div class="dimen"sound="dimen.mp3">   
+                    </div>
+                    <div class="br"></div>
+                    <div class="br2"></div>
+                    <div class="br3"></div>
+                    <div class="br4"></div>
+                    <div class="br5"></div>
+                    <div class="br6"></div>
+                    <div class="br7"></div>
+                    <div class="br8"></div>
+                    <div class="br9"></div>
+                    <div class="br10"></div>
+
+                </div>
+               
+                <div class="topui">
+                    <p class="text">5B</p>
+                    <p class="text2">STANDARD</p>
+                    <p class="text3">5개의 KEY를 이용하여 플레이를 할 수 없습니다.</p>
+                    <p class="text4">이 홈페이지는 1920x1080 해상도에 최적화 되어있습니다.</p>
+                    
+                    <img class="idcard"src="img/idcard.png" alt="yeba"/>
+                </div>
+                <div class="bottomui">
+                    <img class="bottommenu" src="img/esc.png" alt="esc"/>
+                </div>
+            </div>
+        
+            
+        
+        
+        
+    
+    	
+	</body>	
+</html>
